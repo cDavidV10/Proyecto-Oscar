@@ -1,0 +1,73 @@
+/*Aqui empieza los cuadros de los productos*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  padding: 25px 10px;
+  gap: 15px;
+  background: #ffa904;
+}
+
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  border: solid 2px;
+}
+
+.conteiner img {
+  width: 50%;
+  height: 100%;
+}
+
+.conteiner .contenido-producto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 30px;
+  gap: 90px;
+  width: 75%;
+  height: 100%;
+}
+
+.conteiner .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  width: 80%;
+  height: auto;
+  border-radius: 8px;
+  padding: 15px;
+  cursor: pointer;
+  background: #141314;
+  color: #ffa904;
+  border: none;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.conteiner .button:hover {
+  box-shadow: 0 0 10px #373839;
+  scale: 1.05;
+}
+
+.titulo-producto,
+.descripcion,
+.precio-producto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-left: 10px;
+}
+
+.contenido-producto h3 {
+  color: rgb(255, 255, 255);
+}
+
+.parrafo {
+  color: rgb(255, 255, 255);
+}

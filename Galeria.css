@@ -1,0 +1,25 @@
+.main {
+  background-color: #ffa904;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contenedor {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 1000px;
+  border: solid 0px;
+  gap: 15px;
+}
+
+.img {
+  width: 100%;
+  height: auto;
+  padding-top: 11px;
+}
+
+.img img {
+  width: 200px;
+  height: 200px;
+}
